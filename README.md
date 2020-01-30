@@ -1,4 +1,4 @@
-#⏳cron-parser
+# ⏳cron-parser
 
 Command line application / script which parses a cron string and expands each field to show the times at which it will run.
 
@@ -11,7 +11,7 @@ Command line application / script which parses a cron string and expands each fi
 5. Run `gradle test` to run unit tests
 6. Run `gradle fatJar` to generate a jar file that you can run (see it in `build/lib`)
 
-##🏃🏼‍♂️ Run
+## 🏃🏼‍♂️ Run
 
 If you'd like to run the app, use
 
