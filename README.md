@@ -2,7 +2,7 @@
 
 Command line application / script which parses a cron string and expands each field to show the times at which it will run.
 
-## 🛠 Build And Compile
+## 🛠Build And Compile
 
 1. Install [gradle](https://gradle.org/) if you don't have it already
 2. Clone the project using `git clone`
@@ -11,7 +11,7 @@ Command line application / script which parses a cron string and expands each fi
 5. Run `gradle test` to run unit tests
 6. Run `gradle fatJar` to generate a jar file that you can run (see it in `build/lib`)
 
-## 🏃🏼‍♂️ Run
+## 🏃 Run
 
 If you'd like to run the app, use
 
