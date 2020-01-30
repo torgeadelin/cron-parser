@@ -9,13 +9,13 @@ Command line application / script which parses a cron string and expands each fi
 - Go to the project directory `cd cron-parser`
 - Run `gradle compileJava` in your terminal to compile the code
 - Run `gradle test` to run unit tests. Run `open build/reports/tests/test/index.html` to see test results.
-- Run `gradle fatJar` to generate a jar file that you can run (see it in `build/lib`)
+- Run `gradle fatJar` to generate a jar file that you can run (see it in `build/libs`)
 
 ## 🏃 Run
 
 If you'd like to run the app, use
 
-`java -jar build/lib/cron-all.jar "arg1" "arg2"`
+`java -jar build/libs/cron-all.jar "arg1" "arg2"`
 
 Note that **arg1** and **arg2** are **mandatory**.
 
@@ -25,10 +25,10 @@ Note that **arg1** and **arg2** are **mandatory**.
 
 **Example**
 
-- `java -jar build/lib/cron-all.jar "*/2 */2 */2 */2 */2" "/find"`
+- `java -jar build/libs/cron-all.jar "*/2 */2 */2 */2 */2" "/find"`
   Will run `/find` at every 2nd minute past every 2nd hour on every 2nd day-of-month if it's on every 2nd day-of-week in every 2nd month.
 
-- `java -jar build/lib/cron-all.jar "15 0 1,15 * 1-5" "/find"`
+- `java -jar build/libs/cron-all.jar "15 0 1,15 * 1-5" "/find"`
   Will run `/find` at every 15th minute past hour 0 on day-of-month 1 and 15 and on every day-of-week from Monday through Friday.
 
 ## 📕 Cron time fields format
