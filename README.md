@@ -2,7 +2,7 @@
 
 Command line application / script which parses a cron string and expands each field to show the times at which it will run.
 
-## 🛠Build And Compile
+## 🛠 Build And Compile
 
 1. Install [gradle](https://gradle.org/) if you don't have it already
 2. Clone the project using `git clone`
