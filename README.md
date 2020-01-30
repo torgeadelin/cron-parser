@@ -4,12 +4,12 @@ Command line application / script which parses a cron string and expands each fi
 
 ## 🛠 Build And Compile
 
-1. Install [gradle](https://gradle.org/) if you don't have it already
-2. Clone the project using `git clone`
-3. Go to the project directory `cd cron-parser`
-4. Run `gradle compile` in your terminal to compile the code
-5. Run `gradle test` to run unit tests
-6. Run `gradle fatJar` to generate a jar file that you can run (see it in `build/lib`)
+- Install [gradle](https://gradle.org/) if you don't have it already
+- Clone the project using `git clone`
+- Go to the project directory `cd cron-parser`
+- Run `gradle compileJava` in your terminal to compile the code
+- Run `gradle test` to run unit tests. Run `open build/reports/tests/test/index.html` to see test results.
+- Run `gradle fatJar` to generate a jar file that you can run (see it in `build/lib`)
 
 ## 🏃 Run
 
